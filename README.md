@@ -1,7 +1,7 @@
 [![Webpack Version](https://img.shields.io/badge/webpack-v5.0.0-blue.svg)](https://webpack.js.org/)
 
 
-# v1 - Configuração básica do webpack
+# aula 1 - Configuração básica do webpack
 
 
 - Criado o arquivo package.json
