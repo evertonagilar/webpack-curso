@@ -21,3 +21,19 @@ npm start
 ```sh
 node dist/main.js
 ```
+
+
+# aula 2 - Funcionamento dos módulos
+
+- Criado pasta modulos e dois módulos
+- Ver como adicionar os módulos no radar do webpack
+- Configurando a saída do webpack para dist/principal.js
+
+
+1. Compilar e executar o projeto
+   
+```sh
+npm start && node dist/principal.js
+```
+
+
