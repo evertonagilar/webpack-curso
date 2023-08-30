@@ -14,7 +14,9 @@
     "webpack-cli": "5.1.4",
     "css-loader": "6.8.1",
     "style-loader": "3.3.3",
-    "mini-css-extract-plugin": "2.7.6"
+    "mini-css-extract-plugin": "2.7.6",
+    "node-sass": "latest",
+    "sass-loader": "latest"
   },
   "repository": {
     "type": "git",

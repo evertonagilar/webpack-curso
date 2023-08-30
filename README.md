@@ -58,4 +58,13 @@ npm start && node dist/principal.js
 
 1. Depois de compilar, abra o arquivo public/index.html para testar
 
+# aula 5 - Carregando arquivo .scss (SASS)
+
+- Adicionado as dependências: node-sass e sass-loader
+- Ajustado o teste da rule do css para tratar scss:  **'/\.s?[ac]ss$/'**
+- Criado alguns scss de exemplo
+- Incluído referência index.js da pasta assets no principal.js
+
+1. Depois de compilar, abra o arquivo public/index.html para testar
+
 
