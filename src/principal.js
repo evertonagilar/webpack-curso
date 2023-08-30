@@ -1,5 +1,6 @@
 import Pessoa from "./pessoa";
-import ModuloA from './modulos/moduloA'
+import './modulos/moduloA'
+import './assets/css/estilo.css'
 
 const pessoa = new Pessoa();
 console.log(pessoa.cumprimentar())

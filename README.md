@@ -37,3 +37,15 @@ npm start && node dist/principal.js
 ```
 
 
+# aula 3 - Configurar loaders de css e criar página index.html
+
+- Adicionado loaders de css (style-loader e css-loader)
+- Criado arquivo assets/estilo.css e adicionado import em principal.js
+- Criado public/index.html fazendo referência para principal.js
+- Configurado webpack para usar a pasta public como saída
+
+
+
+1. Depois de compilar, abra o arquivo public/index.html para testar
+
+
