@@ -68,3 +68,10 @@ npm start && node dist/principal.js
 1. Depois de compilar, abra o arquivo public/index.html para testar
 
 
+# aula 6 - Configuração desenvolvimento e produção
+
+- Adicionado dependênica cross-env para executar scripts independente de SO
+- Adicionado comando build nos scripts package.json
+- Adicionado teste modoDev no webpack.config.js
+
+

@@ -4,19 +4,21 @@
   "description": "[![Webpack Version](https://img.shields.io/badge/webpack-v5.0.0-blue.svg)](https://webpack.js.org/)",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack",
+    "build": "cross-env NODE_ENV=production webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "~5.88.2",
-    "webpack-cli": "5.1.4",
+    "webpack": "latest",
+    "webpack-cli": "latest",
     "css-loader": "6.8.1",
     "style-loader": "3.3.3",
     "mini-css-extract-plugin": "2.7.6",
     "node-sass": "latest",
-    "sass-loader": "latest"
+    "sass-loader": "latest",
+    "cross-env": "7.0.3"
   },
   "repository": {
     "type": "git",

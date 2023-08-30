@@ -1,9 +1,10 @@
 const webpack = require('webpack')
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const modoDev = process.env.NODE_ENV !== 'production'
 
 module.exports = {
-    mode: 'development',
+    mode: modoDev ? 'development' : 'production',
     entry: './src/principal.js',
     output:{
         filename: 'principal.js',
