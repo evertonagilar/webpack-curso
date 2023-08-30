@@ -49,3 +49,13 @@ npm start && node dist/principal.js
 1. Depois de compilar, abra o arquivo public/index.html para testar
 
 
+# aula 4 - Externalizar o arquivo css
+
+- Adicionado dependencia nova: **mini-css-extract-plugin**
+- Informado o nome do arquivo css a ser gerado
+- Comentado o módulo style-loader e adicionado o MiniCssExtractPlugin
+- Ajuste na página index.html para referenciar o principal.css
+
+1. Depois de compilar, abra o arquivo public/index.html para testar
+
+
